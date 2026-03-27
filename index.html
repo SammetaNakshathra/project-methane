@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Methane Detector Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<h1>Methane Gas Detector</h1>
+
+<div class="controls">
+
+<button id="startBtn">Start Sensing</button>
+
+<button id="stopBtn">Stop</button>
+
+<button id="clearBtn">Clear Graph</button>
+
+<button id="downloadBtn">Download Data</button>
+
+</div>
+
+<div class="status">
+
+<h2 id="ppm">-- ppm</h2>
+
+<h2 id="status">Idle</h2>
+
+<h3>Average: <span id="avg">--</span></h3>
+
+</div>
+
+<canvas id="gasChart"></canvas>
+
+<script src="config.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
